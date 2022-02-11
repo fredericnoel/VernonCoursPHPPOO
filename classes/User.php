@@ -1,6 +1,7 @@
 <?php
 class User
 {
+    use Increment;
     protected $nom;
     protected $prenom;
     protected $quantite;
@@ -10,12 +11,5 @@ class User
         $this->nom = $a;
         $this->prenom = $b;
         $this->quantite = $c;
-    }
-
-    public function incrementer()
-    {
-        $this->quantite++; 
-        echo $this->quantite . "<br />";
-        return $this->quantite;
     }
 }

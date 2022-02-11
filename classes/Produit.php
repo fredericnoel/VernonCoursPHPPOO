@@ -1,6 +1,7 @@
 <?php
 class Produit
 {
+    use Increment;
     protected $designation;
     protected $quantite;
 
@@ -8,12 +9,5 @@ class Produit
     {
         $this->designation = $a;
         $this->quantite = $b;
-    }
-
-    public function incrementer()
-    {
-        $this->quantite++; 
-        echo $this->quantite . "<br />";
-        return $this->quantite;
     }
 }
