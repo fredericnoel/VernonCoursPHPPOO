@@ -1,6 +1,8 @@
 <?php
 class Utilisateur
 {
+    public const TVA = 1.2;
+    public const ROLE = 2;
     protected string $userName;
     protected string $userPassword;
 
