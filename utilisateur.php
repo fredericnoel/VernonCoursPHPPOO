@@ -7,6 +7,5 @@ spl_autoload_register(function ($className) {
 });
 
 $utilisateur1 = new Administrateur('Michel', '1234', 12);
-echo $utilisateur1->getName();
-
-var_dump($utilisateur1);
+//echo $utilisateur1->getName();
+$utilisateur1->choucroute("saucisse");
