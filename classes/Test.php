@@ -2,8 +2,8 @@
 
 class Test
 {
-    public function bonjour() : void
+    public function bonjour($truc) : void
     {   
-        echo "Bonjour";
+        echo "Bonjour $truc";
     }
 }

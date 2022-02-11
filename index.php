@@ -7,4 +7,4 @@ spl_autoload_register(function ($className) {
 
 $message = new Test();
 
-$message->bonjour();
+$message->bonjour("Michel");
