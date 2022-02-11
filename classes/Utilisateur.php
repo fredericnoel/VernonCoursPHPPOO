@@ -1,5 +1,5 @@
 <?php
-class Utilisateur
+abstract class Utilisateur
 {
     public const TVA = 1.2;
     public const ROLE = 2;
@@ -12,8 +12,15 @@ class Utilisateur
         $this->userPassword = $password;
     }
 
+    abstract public function getAnciennete(); 
+
     public function getName()
     {
         return $this->userName;
+    }
+
+    public function getROLE()
+    {
+        return self::ROLE;
     }
 }

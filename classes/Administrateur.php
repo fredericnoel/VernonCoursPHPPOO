@@ -7,4 +7,14 @@ class Administrateur extends Utilisateur
         echo "Ca marche";
         //return strtoupper($this->userName);
     }
+
+    public function getROLE()
+    {
+        return parent::ROLE;
+    }
+
+    public function getAnciennete()
+    {
+        echo "truc";
+    }
 }
