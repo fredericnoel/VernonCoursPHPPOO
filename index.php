@@ -5,7 +5,7 @@ spl_autoload_register(function ($className) {
     include './classes/' . $className . '.php';
 });
 
-$message = new Test();
+$message = new Machin();
 
 @$message->bonjour("Michel");
 echo "<hr />";
