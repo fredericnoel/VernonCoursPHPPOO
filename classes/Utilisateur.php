@@ -3,6 +3,7 @@ abstract class Utilisateur
 {
     public const TVA = 1.2;
     public const ROLE = 2;
+    public const CDI = true;
     protected string $userName;
     protected string $userPassword;
 
