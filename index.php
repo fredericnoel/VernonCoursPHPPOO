@@ -8,3 +8,9 @@ spl_autoload_register(function ($className) {
 $message = new Test();
 
 $message->bonjour("Michel");
+
+$homme = new Test();
+
+$homme->setAge(42);
+
+var_dump($homme);
