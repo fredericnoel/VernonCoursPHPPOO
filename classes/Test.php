@@ -4,6 +4,11 @@ class Test
 {
     public int $age;
 
+    public function __construct()
+    {
+        $this->age = 0;
+    }
+
     public function bonjour($truc) : void
     {   
         echo "Bonjour $truc";

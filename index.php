@@ -7,10 +7,11 @@ spl_autoload_register(function ($className) {
 
 $message = new Test();
 
-$message->bonjour("Michel");
+@$message->bonjour("Michel");
+echo "<hr />";
 
 $homme = new Test();
 
-$homme->setAge(42);
+//$homme->setAge(42);
 
 var_dump($homme);
