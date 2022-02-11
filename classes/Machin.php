@@ -1,5 +1,5 @@
 <?php
-class Machin extends Test
+final class Machin extends Test
 {
     public float $taille;
 
@@ -11,5 +11,10 @@ class Machin extends Test
     public function setTaille(float $combien) : void
     {
         $this->taille = $combien;
+    }
+
+    public function afficherAge()
+    {
+        echo $this->age;
     }
 }
