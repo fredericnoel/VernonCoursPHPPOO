@@ -2,7 +2,7 @@
 
 class Test
 {
-    public int $age;
+    protected int $age;
 
     public function __construct()
     {
