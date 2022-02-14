@@ -5,10 +5,10 @@ ini_set('display_errors', '1');
 include './vendor/autoload.php';
 
 
-/*spl_autoload_register(function ($className) {
+spl_autoload_register(function ($className) {
     include './classes/' . $className . '.php';
 });
-*/
+
 
 use SebastianBergmann\Timer\Timer;
 $timerFor = new Timer();
