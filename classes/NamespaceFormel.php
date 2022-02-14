@@ -1,6 +1,9 @@
 <?php
 
 namespace Exemple {
+    use DateTime;
+    use Exception;
+
     class User
     {
         public $nom;
